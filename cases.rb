@@ -1,5 +1,6 @@
 # cases.rb 
 
+<<<<<<< HEAD
 a = gets.chomp.to_i
 
 answer = case a
@@ -28,3 +29,16 @@ b = 0
 verify(b)
 b = false
 verify(b)
+=======
+letters = "zAWEcasecaweRAfa blood for blood BaseedfweEDE"
+
+p letters.upcase
+p letters.downcase
+p letters.swapcase
+p letters.capitalize
+p "a".capitalize
+p " a".capitalize
+p letters
+p letters.downcase!
+p letters
+>>>>>>> 4be7e2689dd67563a8e7c0f86b2a7d9f317fbb59
